@@ -64,5 +64,5 @@ while ep == "si" or ep == "s":
   hak = dg and gb
   print(f"4. se le entrega bono de alimento= {hak}")
 
- #lolo 3
+ #lolo 38
   ep = input("Desea realizarlo otra vez: ")
