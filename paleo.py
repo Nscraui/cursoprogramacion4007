@@ -8,14 +8,13 @@ while ep == "si" or ep == "s":
   print()
 
 # 1. Bono pencionario
-  def validar(est):
-   if Ed >= 55:
+  if Ed >= 55:
     bon= bn * 0.05
     d = bon + bn
     estado = (f"1. Aprobado. la edad es= {Ed} El valor del bono= {bon :,.0f} saldo total= {d :,.0f}")
-   else:
+  else:
     estado = (f"1. Negado. La edad es= {Ed}")
-    print(estado)
+  print(estado)
   print()
 #2. Viaje is o no
   if sm in "si":
